@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .nav1{
     background-color: bisque;
     height: 25px;
@@ -21,6 +24,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top: 25px;
+    
 }
 .c{
     position: absolute;
@@ -34,15 +38,29 @@
 .c1{
     position: relative;
     color: white;
-    padding-left: 450px;
-    padding-top: 40px;
+    padding-left: 45px;
+    padding-top: 50px;
+
+
     
 }
 .d{
-    background-image: url("../images/bg1.jpg");
-    background-size: cover;
-    height: 550px;
-    display: flex;
-    justify-content: center;
+    background-image: url(../images/bgmain.jpeg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
     
+    
+    padding-left: 300px;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    
+
+   
+    
+} 
+.d4 .d5{
+color: gray;
 }
+
