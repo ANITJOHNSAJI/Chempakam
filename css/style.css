@@ -45,7 +45,7 @@
     
 }
 .d{
-    background-image: url(../images/bgmain.jpeg);
+    background-image: url(../images/bgim\ main.jpeg);
    background-size: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,6 +67,7 @@ color: gray;
 
 .e{
     display: flex;
+    justify-content: space-evenly;
 }
 
 #img1{
@@ -119,13 +120,9 @@ color: gray;
     text-align: center;
 }
 
-.f{
-    display: flex;
- 
-    height: 300px;
-    width: 800px;
 
-}
+
+
 
 #im1{
     height: 300px;
@@ -148,6 +145,18 @@ color: gray;
 
 }
 
+
+.f{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    justify-content: space-evenly;
+}
+.f-sub{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    
+
+}
 #im5{
     height: 300px;
     width: 300px;
@@ -157,6 +166,16 @@ color: gray;
     height: 300px;
     width: 300px;
 
+}
+
+.g{
+    display: flex;
+    justify-content:center ;
+}
+#but3{
+    height: 50px;
+    width: 200px;
+    text-size-adjust: 700;
 }
 
 
