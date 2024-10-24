@@ -53,7 +53,7 @@
     background-image: url(../images/bgim\ main.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: cover;
+  
     height: 400px;
 
 
@@ -76,6 +76,8 @@
 .e {
     display: flex;
     justify-content: space-evenly;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .img1 {
@@ -119,11 +121,15 @@
 .f {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .fsub {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
@@ -137,9 +143,11 @@
 .g {
     display: flex;
     justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-#but3 {
+.but3 {
     height: 50px;
     width: 250px;
     justify-content: center;
@@ -155,6 +163,8 @@
 .h {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 
@@ -167,9 +177,26 @@
 .hsub {
     display: flex;
     flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .na1 {
     height: 300px;
     width: 300px
+}
+.i{
+    display: flex;
+    justify-content: center;
+}
+.but4{
+    height: 50px;
+    width: 250px;
+    justify-content: center;
+
+}
+.f2{
+    height: 300px;
+    width: 300px;
+    
 }
