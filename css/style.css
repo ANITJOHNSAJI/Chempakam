@@ -38,6 +38,7 @@
 }
 .a{
     padding-left: 200px;
+    width:100% ;
 }
 
 .b ul {
@@ -152,33 +153,89 @@
     justify-content:space-around;
  } 
     */
-.f {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
-}
- .f1 .f2 .f3 .f4 .f5 .f6{
-    height: 300px;
-    width: 300px;
+    .bsph{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 700;
+        color: gray;
+        padding: 20px 25px;
+        /* background-color: yellow; */
+    }
     
-}
-
-
-
-.fsub {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 5%;
-    margin-right: 5%;
-
-}
-
-.im2 {
-    height: 300px;
-    width: 300px;
-
-}
+    .bspm {
+       background-color: rgba(128, 128, 128,.2);
+       height: 160vh;
+       display: flex;
+       padding: 10px 4%;
+       justify-content: space-between;
+       flex-wrap: wrap;
+    }
+    
+    .bspm .cardm1,.cardm2,.cardm3,.cardm4,.cardm5,.cardm6,.cardm7,.cardm8{
+        height:73vh;
+        width: 23%; 
+        margin: 10px 0;
+        padding:0 ;  
+    }
+    
+    .cardimg{
+        height: 60%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .cardimg img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .cardtext p{
+        margin: 25px 30px 30px;
+    }
+    
+    .cardtext h3{
+        margin: 0 30px 10px;
+    }
+    
+    .cardbutton button{
+        border-radius: 0;
+        padding: 15px;
+        border: 1px solid grey;
+        margin: 10px 30px ;
+        color: rgb(80, 79, 79);
+        font-weight: 500;
+        background-color: rgb(209, 207, 207);
+    }
+    
+    .cardbutton button:hover{
+        background-color: aliceblue;
+        /* transition: ease-in; */
+        transition-duration: .5s;
+    }
+    
+    .mbttn{
+        text-align: center;
+    }
+    
+    .mbttn button{
+        margin: 30px;
+        padding: 10px 35px;
+        color: rgb(67, 67, 67);
+        font-size: 14px;
+        border-radius: 0;
+        border: 1px solid;
+        font-weight: 600;
+        background-color: white;
+    }
+    
+    .mbttn button:hover{
+        color: white;
+        background-color: rgb(150, 150, 150);
+        transition-duration: .3s;
+    }
+    
 
 
 .g {
@@ -253,11 +310,16 @@
     height: 500px;
     width: 100%;
     /* margin-top: 10px; */
-   padding: 0 30px 0 30px;
+   
 }
 .foot1 {
     color: white;
     margin-top: 10px;
+    margin-left: 150px;
+}
+.foot1 .footimg{
+    height: 50px;
+    width: 400px;
 }
 
 .foot2 {
@@ -270,5 +332,6 @@
 }
 .foot4{
     color: white;
+    margin-right: 150px;
    
 }
