@@ -22,6 +22,10 @@
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 2fr;
 }
+/* .menu{
+    color:white;
+    display: none;
+} */
 #search{
     position: absolute;
 }
@@ -235,8 +239,18 @@
         background-color: rgb(150, 150, 150);
         transition-duration: .3s;
     }
-    
 
+    /* New Arrivals  */
+
+.newarrivalshead{
+    color:  grey;
+    padding: 30px 30px 15px;
+    text-align: center;
+    font-size: 37px;
+    font-weight: 650;
+}
+    
+/* 
 
 .g {
     display: flex;
@@ -300,7 +314,7 @@
     width: 250px;
     justify-content: center;
 
-}
+} */
 
 .foot{
     background-color: black;
@@ -335,3 +349,96 @@
     margin-right: 150px;
    
 }
+@media (min-width:200px) and (max-width:1120px){
+    .nav1{
+        text-align: center;
+    }
+    .nav2{
+        padding: 1% 4%;
+    }
+    .menu span{
+        display: inline;
+        /* height: 2%; */
+        margin-right: 10px;
+        
+    }
+    .nav .b{
+        display: none;
+    }
+    .logo{
+        margin-right: auto;
+    }
+    .logo img{
+        height: 60px;
+    }
+    .right input{
+        display: none;
+    }
+    .bigimg{
+        height: 65vh;
+    }
+    .bigimg .content{
+        top: 22%;
+        left:5%;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    .bigimg .contimg{
+        height: 130px;
+        left: 3%;
+        width: auto;
+        margin: 10px 0;
+    }
+    .typeofprdctcard3,.typeofprdctcard4,.typeofprdctcard5,.typeofprdctcard6,.typeofprdctcard7{
+        display: none;
+    }
+    .typeofprdctcard1,.typeofprdctcard2{
+        width: 49%;
+        margin: 20px 10px;
+        height: 40vh;
+    }
+    .typeofprdctm{
+        height: 40vh;
+    }
+    .bsph{
+        font-size: 30px;
+        padding: 0 0 40px;
+    }
+    .bspm {
+        height: 70vh;
+        padding: 10px 3%;
+     }
+    .bspm .cardm1,.cardm2,.cardm3,.cardm4,.cardm5,.cardm6,.cardm7,.cardm8{
+        height:20vh;
+        margin: 8px 0; 
+    }
+    .cardtext p{
+        margin: 25px 15px 20px;
+    }
+    
+    .cardtext h3{
+        margin: 0 15px 10px;
+    }
+    
+    .cardbutton button{
+        padding: 6px 15px;
+        margin: 10px 15px ;
+        font-weight: 400;
+    }
+
+    footer{
+        height: 100vh;
+    }
+    .row{
+        padding: 0 120px;
+    }
+    .colm1,.colm2,.colm3,.colm4{
+        margin: 20px 0;
+
+    }
+}
+    @media (min-width:300px) and (max-width:762px){
+        img.menu{
+          display: flex;
+        }
+    }
